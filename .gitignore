@@ -1,0 +1,35 @@
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (for any future scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Skill packaging artefacts
+*.skill
+*.zip
+dist/
+build/
+
+# Sessions / scratch
+.claude/
+*.tmp
+*.bak
+
+# Sensitive — never commit
+.env
+*.pem
+*.key
+secrets/
